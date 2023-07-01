@@ -117,6 +117,10 @@ input {
   border: none;
 }
 
+.logo .trix1{
+    width: 150px;
+  }
+
 html {
   font-family: var(--ff-poppins);
   scroll-behavior: smooth;
@@ -1428,3 +1432,9 @@ body{
         height: 350px;
     }
   }
+
+@media (min-width: 322px){
+.logo .trix1{
+    width: 150px;
+  }
+}
